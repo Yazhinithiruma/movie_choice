@@ -1,5 +1,5 @@
-//const API_BASE = 'http://localhost:3000/api/history';
-const API_BASE = 'https://movie-choice-movie-choice.apps-crc.testing/api/history';
+const API_BASE = 'http://localhost:3000/api/history';
+//const API_BASE = 'https://movie-choice-movie-choice.apps-crc.testing/api/history';
 
 // Fetch movie history
 async function fetchHistory() {
