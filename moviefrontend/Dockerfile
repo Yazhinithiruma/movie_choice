@@ -7,5 +7,5 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy the frontend files from the moviefrontend directory into the Nginx container
 COPY ./moviefrontend/ /usr/share/nginx/html/
 
-# Expose port 3000 for Nginx to serve the frontend
-EXPOSE 3000
+# Expose port 80 for Nginx to serve the frontend
+EXPOSE 80
